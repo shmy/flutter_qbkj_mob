@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="tech.shmy.flutter_qbkj_mob">
+
+    <!--获取设备标识IMEI。⽤于标识⽤户-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--读写存储权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--定位权限-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--用户朗读口令时需要用到该权限-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--用户下载过后安装时用到该权限-->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+</manifest>
